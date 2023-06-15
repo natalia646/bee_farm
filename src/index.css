@@ -2,10 +2,13 @@
   font-family: "Arsenal", sans-serif;
   --text-color: rgb(73, 46, 11);
 }
+body {
+  margin: auto;
+}
 .fon {
   background-image: url("/img/fon/cover.jpg");
   background-size: cover;
 }
-body {
-  margin: auto;
+.products{
+  background-image: url('/img/fon/bg-2.jpg');
 }
