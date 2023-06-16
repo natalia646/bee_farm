@@ -12,12 +12,13 @@ export default function WhatWiDo() {
   const typeOfProducts = ['Мед', 'Вулики', 'Продукція', 'Інвертар',]
 
   return (
-    <div>
+    <div className="products">
       <h2>Чим ми займаємося</h2>
       <p>Наша сімейна компанія займається всім, що стосується меду та його виробництва. Дізнайтеся більше про наші послуги нижче.</p>
 
       <div className='blocks'>
-        {icons.map(icon => <Product icon = {icon} />)}    
+        {icons.map(icon => <Product icon = {icon} />)}   
+
       </div>
 
     </div>
