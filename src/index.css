@@ -6,9 +6,9 @@ body {
   margin: auto;
 }
 .fon {
-  background-image: url("/img/fon/cover.jpg");
+  background-image: url("/public/fon/cover.jpg");
   background-size: cover;
 }
 .products{
-  background-image: url('/img/fon/bg-2.jpg');
+  background-image: url('/public/fon/bg-1.jpg');
 }
