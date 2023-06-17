@@ -1,18 +1,20 @@
 :root {
   font-family: "Arsenal", sans-serif;
   --text-color: rgb(73, 46, 11);
-  --brend-color: #f7bd00;
+  --brend-color: rgb(247, 189, 0);
+  --acsent-color: rgb(249, 244, 240);
 }
 body {
   margin: auto;
 }
 .fon {
-  background-image: url("/public/fon/cover.jpg");
+  background-image: url("/public/assets/fon/cover.jpg");
   background-size: cover;
 }
 .products{
-  background-image: url('/public/fon/bg-1.jpg');
+  background-image: url('/public/assets/fon/bg-1.jpg');
 }
 .h2{
   text-align: center;
+  size: 2em;
 }

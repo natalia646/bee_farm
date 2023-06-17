@@ -4,10 +4,10 @@ import Product from "./Product";
 
 export default function WhatWiDo() {
   const icons = [
-    "../images/icon1.png",
-    "../images/icon2.png",
-    "../images/icon3.png",
-    "../images/icon4.png",
+    "../assets/images/icon1.png",
+    "../assets/images/icon2.png",
+    "../assets/images/icon3.png",
+    "../assets/images/icon4.png",
   ];
   const typeOfProducts = ["Мед", "Вулики", "Продукція", "Інвертар"];
 
@@ -30,6 +30,7 @@ export default function WhatWiDo() {
               onClick={() => clickProduct(i)}
               icon={icon}
               typeOfProducts={typeOfProducts[i]}
+              key={i}
             />
           ))}
         </div>

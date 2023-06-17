@@ -5,14 +5,24 @@
 .nav {
   display: flex;
   justify-content: space-around;
-  margin-top: 1em;
-}
-h3 {
-  margin-left: 2em;
+  margin-top: 2em;
+  margin-right: 2em;
 }
 a {
   font-size: 1em;
   color: var(--text-color);
   font-weight: bold;
   text-decoration: none;
+}
+.lotype{
+  width: 7em;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.h3{
+  font-size: 2rem;
 }
