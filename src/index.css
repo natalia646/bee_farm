@@ -13,3 +13,6 @@ body {
 .products{
   background-image: url('/public/fon/bg-1.jpg');
 }
+.h2{
+  text-align: center;
+}
