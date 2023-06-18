@@ -1,8 +1,9 @@
 import "./App.css";
 import Heder from "./components/Heder/Heder";
 import HoneyButton from "./components/OurHoney/HoneyButton";
-import Title from "./components/Title/Title";
+import Title from "./components/Heder/Title";
 import WhatWiDo from "./components/WhatWiDo/WhatWiDo";
+import AllHoney from "./components/OurHoney/AllHoney";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Title />
       </div>
       <WhatWiDo />
+      <AllHoney/>
       <HoneyButton />
     </div>
   );

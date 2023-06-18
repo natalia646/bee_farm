@@ -7,15 +7,15 @@ export default function Heder() {
   return (
     <div className="navigator">
       <div className="logo">
-        <img src="./assets/fon/logo-page.jpg" alt="logo" className="lotype"></img>
+        <img src="./assets/fon/logo2.jpg" alt="logo" className="lotype"></img>
         <h3 className="h3">{`Бджолина 
         Ферма`}</h3>
       </div>
       <nav className="nav" >
-        <a href="">Про нас</a>
-        <a href="">Продукція</a>
-        <a href="">Магазин</a>
-        <a href="">Контакти</a>
+        <a className="a-navigator" href="">Про нас</a>
+        <a className="a-navigator" href="">Продукція</a>
+        <a className="a-navigator" href="">Магазин</a>
+        <a className="a-navigator" href="">Контакти</a>
       </nav>
     </div>
   );
