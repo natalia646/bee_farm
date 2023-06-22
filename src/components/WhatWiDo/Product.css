@@ -10,6 +10,6 @@
     border-radius: 1em;
 }
 .active{
-    background-color: blueviolet;
+    background-color:var(--brend-color) ;
 }
 

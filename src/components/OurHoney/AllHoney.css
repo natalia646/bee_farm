@@ -1,8 +1,15 @@
 .all-honey{
     background-color: var(--brend-color);
+    display: flex;
 }
 
 
 /* FOR COMPONENT HONEY */
 
+.img-honey{
+    width: 4em;
+}
+.p-honey{
+    margin-bottom: 0;
+}
 

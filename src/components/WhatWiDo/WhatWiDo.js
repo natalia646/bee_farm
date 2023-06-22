@@ -8,8 +8,11 @@ export default function WhatWiDo() {
     "../assets/images/icon2.png",
     "../assets/images/icon3.png",
     "../assets/images/icon4.png",
+    "../assets/images/icon4.png",
+    "../assets/images/icon4.png",
+    "../assets/images/icon4.png",
   ];
-  const typeOfProducts = ["Мед", "Вулики", "Продукція", "Інвертар"];
+  const typeOfProducts = ["Мед", "Вулики", "Продукція", "Інвертар", "Подарункові набори", "Свічки", "Бджолиний пилок"];
 
   const [activeIndex, setActiveIndex] = React.useState(2);
   const clickProduct = (index) => {

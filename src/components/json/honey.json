@@ -1,47 +1,20 @@
 [
-    {
+    {   "id": 1,
         "type": "honey with nuts",
         "made": "bee",
         "prise": 100,
-        "img": "https://mega.nz/file/1vkinBaR#STX736gTk1LpGAm3mBNTPYl6GPHns73akJa8ktgWFeQ",
+        "img": "./assets/img-honey/original.jpeg",
         "name": "bee huney with nuts",
         "whith-taste": "nuts",
-        "extent": 300
+        "extent": [0.3, 0.5, 1]
     },
-    {
+    {   "id": 2,
         "type": "honey with nuts",
         "made": "bee",
         "prise": 220,
-        "img": "https://mega.nz/file/Jv9mwKbY#Cmfc9DKTHe8ltz7pBCeWjV6cEopqqoHJC7rgLG_ollQ",
+        "img": "./assets/img-honey/original.jpeg",
         "name": "bee huney",
         "whith-taste": "nuts",
-        "extent": 300
-    },
-    {
-        "type": "pure honey",
-        "made": "bee",
-        "prise": 230,
-        "img": "url",
-        "name": "bee huney",
-        "whith-taste": "nuts",
-        "extent": 300
-    },
-    {
-        "type": "krem honey",
-        "made": "bee",
-        "prise": 120,
-        "img": "url",
-        "name": "bee huney",
-        "whith-taste": "nuts",
-        "extent": 300
-    },
-    {
-        "type": "amosov paste",
-        "made": "bee",
-        "prise": 120,
-        "img": "url",
-        "name": "bee huney",
-        "whith-taste": "nuts",
-        "extent": 300
+        "extent": [0.3, 0.5, 1]
     }
 ]
