@@ -10,14 +10,27 @@ export default function WhatWiDo() {
     "../assets/images/icon4.png",
     "../assets/images/icon4.png",
     "../assets/images/icon4.png",
-    "../assets/images/icon4.png",
   ];
-  const typeOfProducts = ["Мед", "Вулики", "Продукція", "Інвертар", "Подарункові набори", "Свічки", "Бджолиний пилок"];
+  const blocksFon = [
+    '../assets/fon/Bonbon/jpg',
+    '../assets/fon/Bee-pollen/jpg',
+    '../assets/fon/Candles/jpg',
+    '../assets/fon/Gift-sets/jpg',
+    '../assets/fon/Utensils/jpg',
+    '../assets/fon/Honey/jpg',
+  ]
+
+  const typeOfProducts = ["Мед",   "Свічки","Подарункові набори", "Приладя","Бджолиний пилок", "Бонбоньєрки"];
+  const classBlock = ["Honey", "Utensils", "Gift-sets", "Candles", "Bee-pollen", 'Bonbon'];
 
   const [activeIndex, setActiveIndex] = React.useState(2);
   const clickProduct = (index) => {
     setActiveIndex(index);
   };
+    
+  const backgroundImg = {
+    backgroundImage: "url(../assets/fon/Bonbon/jpg)"
+  }
 
   return (
     <div className="products">
@@ -29,8 +42,8 @@ export default function WhatWiDo() {
         <div className="blocks">
           {icons.map((icon, i) => (
             <Product
-              className={activeIndex === i ? "active" : ""}
-              onClick={() => clickProduct(i)}
+              className={`${activeIndex === i ? `active` : ""} ${classBlock[i]}`}
+              onMouseOver={() => clickProduct(i)}
               icon={icon}
               typeOfProducts={typeOfProducts[i]}
               key={i}

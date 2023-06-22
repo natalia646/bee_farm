@@ -7,7 +7,7 @@ export default function AllHoney() {
   return (
     <div className="all-honey">
       {honey.map((hon) => (
-        <Honey {...hon}/>
+        <Honey {...hon} />
       ))}
     </div>
   );

@@ -2,6 +2,36 @@ h2{
     margin: auto;
 }
 .blocks{
-    display: flex;
+    margin: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-rows: 370px;
+    grid-template-areas: 
+       "b a a"
+       "b c e"
+       "f c d"
 }
+.Honey{
+ grid-area: a;
+ /* background-image: url('/public/assets/fon/Honey.jpg'); */
 
+}
+.Utensils{
+    grid-area: b;
+    /* background-image: url('/public/assets/fon/Utensils.jpg'); */
+}
+.Gift-sets{
+    grid-area: c;
+    /* background-image: url('/public/assets/fon/Gift-sets.jpg'); */
+}
+.Candles{
+    grid-area: d;
+    /* background-image: url('/public/assets/fon/Candles.jpg'); */
+}
+.Bee-pollen{
+    grid-area: e;
+    /* background-image: url('/public/assets/fon/Bee-pollen.jpg'); */
+}
+.Bonbon{
+    grid-area: f;
+    /* background-image: url('/public/assets/fon/Bonbon.jpg'); */
+}

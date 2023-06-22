@@ -1,15 +1,16 @@
 .product-icon{
-    width: 30%;
-    display: block;
+    width: 4em;
     margin: auto;
-
 }
 .Product{
-    margin: 2em 2em 2em 2em;
+    margin: 1em 1em 1em 1em;
     background-color:white;
-    border-radius: 1em;
+    border-radius: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .active{
-    background-color:var(--brend-color) ;
+    background-color:var(--brend-color);
 }
 
