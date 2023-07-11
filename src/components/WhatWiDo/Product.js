@@ -9,7 +9,7 @@ export default function Product({icon, typeOfProducts, className, onMouseOver, s
   }
 
   return (
-    <article className= {`${className} Product`} onMouseOver={onMouseOver} style={{backgroundImage: "url(/public/assets/fon/Honey.jpg)"}}>
+    <article className= {`${className} Product`} onMouseOver={onMouseOver}>
       <img src={icon} alt='icon' className='product-icon'></img>
       <h2 className='h2'>{typeOfProducts}</h2>
     </article>

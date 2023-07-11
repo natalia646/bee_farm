@@ -12,8 +12,8 @@ h2{
 }
 .Honey{
  grid-area: a;
- /* background-image: url('/public/assets/fon/Honey.jpg'); */
-
+ background-image: url('/public/assets/fon/Honey.jpg');
+ background-size: contain
 }
 .Utensils{
     grid-area: b;
@@ -33,5 +33,7 @@ h2{
 }
 .Bonbon{
     grid-area: f;
-    /* background-image: url('/public/assets/fon/Bonbon.jpg'); */
+    background-image: url('/public/assets/fon/Bonbon.jpg');
+    background-size: contain
+
 }
